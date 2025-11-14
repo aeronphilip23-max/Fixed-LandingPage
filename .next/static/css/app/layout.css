@@ -671,9 +671,6 @@ font-weight: 100 900;
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
-  .h-32 {
-    height: calc(var(--spacing) * 32);
-  }
   .h-\[1\.15rem\] {
     height: 1.15rem;
   }
@@ -775,9 +772,6 @@ font-weight: 100 900;
   }
   .w-9 {
     width: calc(var(--spacing) * 9);
-  }
-  .w-32 {
-    width: calc(var(--spacing) * 32);
   }
   .w-64 {
     width: calc(var(--spacing) * 64);
@@ -1278,12 +1272,6 @@ font-weight: 100 900;
       border-color: color-mix(in oklab, var(--border) 50%, transparent);
     }
   }
-  .border-border\/75 {
-    border-color: var(--border);
-    @supports (color: color-mix(in lab, red, red)) {
-      border-color: color-mix(in oklab, var(--border) 75%, transparent);
-    }
-  }
   .border-destructive {
     border-color: var(--destructive);
   }
@@ -1370,15 +1358,6 @@ font-weight: 100 900;
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--card) 50%, transparent);
     }
-  }
-  .bg-card\/75 {
-    background-color: var(--card);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--card) 75%, transparent);
-    }
-  }
-  .bg-card\/100 {
-    background-color: var(--card);
   }
   .bg-destructive {
     background-color: var(--destructive);
@@ -2675,16 +2654,6 @@ font-weight: 100 900;
         border-color: var(--primary);
         @supports (color: color-mix(in lab, red, red)) {
           border-color: color-mix(in oklab, var(--primary) 60%, transparent);
-        }
-      }
-    }
-  }
-  .hover\:border-primary\/75 {
-    &:hover {
-      @media (hover: hover) {
-        border-color: var(--primary);
-        @supports (color: color-mix(in lab, red, red)) {
-          border-color: color-mix(in oklab, var(--primary) 75%, transparent);
         }
       }
     }

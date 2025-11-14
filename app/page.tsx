@@ -16,7 +16,7 @@ export default function Home() {
       <GameSection
         id="skaadi-frost"
         title="Skaadi: The Frost Warrior"
-        subtitle="The Chosen of Skadi"
+        subtitle="The Chosen of Skaadi"
         description="A legendary warrior chosen by the goddess Skadi to traverse the frozen realms and uncover the truth behind Ragnarök. Wield the power of winter itself as you battle through divine trials and uncover the secrets of the Norse gods."
         features={[
           "Master the Frostbite Blade and ice magic abilities",

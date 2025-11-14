@@ -27,7 +27,7 @@ export function Navigation() {
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#ragnar-frost" className="text-sm tracking-wider hover:text-primary transition-colors">
+          <a href="#skaadi-frost" className="text-sm tracking-wider hover:text-primary transition-colors">
             SKAADI
           </a>
           <a href="#astrid-shield" className="text-sm tracking-wider hover:text-primary transition-colors">
