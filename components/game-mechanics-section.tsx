@@ -118,7 +118,7 @@ export function GameMechanicsSection() {
         <div className="text-center mb-16">
           <div className="text-accent text-sm tracking-[0.3em] mb-4">GAMEPLAY SYSTEMS</div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-            MASTER THE <span className="text-accent">GAME MECHANICS</span>
+            MASTER THE GAME MECHANICS<span className="text-accent"></span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
             Explore vast realms, master brutal combat, and slay enemies to progress through an epic Norse saga
@@ -136,13 +136,13 @@ export function GameMechanicsSection() {
               </TabsTrigger>
               <TabsTrigger 
                 value="combat"
-                className="data-[state=active]:bg-secondary/20 data-[state=active]:text-secondary data-[state=active]:border-b-2 data-[state=active]:border-secondary hover:bg-secondary/10 transition-all duration-200"
+                className="data-[state=active]:bg-primary/20 data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary hover:bg-primary/10 transition-all duration-200"
               >
                 Combat
               </TabsTrigger>
               <TabsTrigger 
                 value="progression"
-                className="data-[state=active]:bg-accent/20 data-[state=active]:text-accent data-[state=active]:border-b-2 data-[state=active]:border-accent hover:bg-accent/10 transition-all duration-200"
+                className="data-[state=active]:bg-primary/20 data-[state=active]:text-primary data-[state=active]:border-b-2 data-[state=active]:border-primary hover:bg-primary/10 transition-all duration-200"
               >
                 Progression
               </TabsTrigger>
