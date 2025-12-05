@@ -5,6 +5,7 @@ import { GameMechanicsSection } from "@/components/game-mechanics-section"
 import { DiscoverySection } from "@/components/discovery-section"
 import { CTASection } from "@/components/cta-section"
 import { Navigation } from "@/components/navigation"
+import { ScreenshotsGallery } from "@/components/screenshots-gallery"
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
           "Engage in strategic raids to progress your story",
         ]}
         imageQuery="Astrid shieldmaiden Viking warrior with settlement and clan"
-        imageUrl="/images/norse woman.jpg"
+        imageUrl="/images/astrid.jpg"
         theme="viking"
         reverse
       />
@@ -52,6 +53,7 @@ export default function Home() {
 
       <ComparisonSection />
       <DiscoverySection />
+      <ScreenshotsGallery />
       <CTASection />
     </main>
   )
