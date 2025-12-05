@@ -116,7 +116,7 @@ export function GameMechanicsSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <div className="text-accent text-sm tracking-[0.3em] mb-4">GAMEPLAY SYSTEMS</div>
+          <div className="text-primary text-sm tracking-[0.3em] mb-4">GAMEPLAY SYSTEMS</div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
             MASTER THE GAME MECHANICS<span className="text-accent"></span>
           </h2>
